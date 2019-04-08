@@ -1,2 +1,3 @@
-# autoscroll
+# Autoscroll
+
 Autoscroll chrome extension
