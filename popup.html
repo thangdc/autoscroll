@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+		<meta charset="UTF-8">
+		<style>
+			.slider {
+			  -webkit-appearance: none;
+			  width: 100%;
+			  height: 15px;
+			  border-radius: 5px;   
+			  background: #d3d3d3;
+			  outline: none;
+			  opacity: 0.7;
+			  -webkit-transition: .2s;
+			  transition: opacity .2s;
+			}
+			.mg-15 { margin: 15px 0; }
+		</style>
+    </head>
+    <body>
+      <div style="width: 240px;">
+		<div style="text-align: right;">
+			<button id='btnStart'>Chạy</button>
+		</div>
+		<div class='mg-15'><input id='tbxTimeout' class='slider' type="range" min="1" max="100" value="25" /></div>
+		<div>
+			<div style="float: left;">Nhanh</div>
+			<div style="float: right;">Chậm</div>
+			<br style="clear: both;"/>
+		</div>
+		<div class='mg-15'>
+			Nhấn phím để tạm dừng hoặc tiếp tục: <input id='tbxShortcut' style='float: right; width: 20px;' type='text' value='s'/>
+			<br style="clear: both;"/>
+		</div>
+	  </div>
+	  <script src="popup.js"></script>
+    </body>
+  </html>
