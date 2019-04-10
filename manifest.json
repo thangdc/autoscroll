@@ -2,7 +2,7 @@
   "name": "Auto Scroll",
   "version": "1.0",
   "description": "Scroll website automatically",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage", "background", "tabs", "http://*/*", "https://*/*"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
